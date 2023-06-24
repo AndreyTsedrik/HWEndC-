@@ -10,3 +10,8 @@ int j = 0;
             j++;
         }
     }
+Console.WriteLine("Новый массив строк:");
+    for (int i = 0; i < j; i++)
+    {
+        Console.WriteLine(SecondArray[i]);
+    }
